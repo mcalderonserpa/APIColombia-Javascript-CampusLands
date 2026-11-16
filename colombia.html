@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Portal de Colombia - Colombia en Datos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Portal Informativo de Colombia</h1>
+        <nav>
+            <a href="index.html">1. Explorador de Departamentos</a>
+            <a href="colombia.html" class="activo">3. Colombia en Datos</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Colombia en Datos</h2>
+
+        <div id="mensaje-carga" class="mensaje-carga">
+            Cargando datos de Colombia desde la API...
+        </div>
+
+        <div id="mensaje-error" class="mensaje-error oculto"></div>
+
+        <section id="cabecera-pais" class="cabecera-pais oculto"></section>
+
+        <section>
+            <div id="contenedor-datos-colombia" class="grid-tarjetas"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Datos obtenidos de <a href="https://api-colombia.com/" target="_blank">API Colombia</a></p>
+    </footer>
+
+    <script src="colombia.js"></script>
+</body>
+</html>

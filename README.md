@@ -34,4 +34,4 @@ El proyecto desarrolla las siguientes dos opciones en páginas independientes co
 ```
 
 ## Nombre del estudiante
-- **Estudiante**: mcalderonserpa *(reemplazar con tu nombre y apellido completo si lo deseas antes de entregar)*
+- **Estudiante**: Miguel Ricardo Calderon Serpa
